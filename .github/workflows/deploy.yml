@@ -19,7 +19,7 @@ jobs:
         java-version: '21'
 
     - name: Build Jar
-      run:
+      run:  |
         chmod +x ./mvnw
         ./mvnw clean package -DskipTests
 
